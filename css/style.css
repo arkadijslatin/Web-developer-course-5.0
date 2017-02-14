@@ -1,0 +1,50 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	margin-top:  0px;
+	text-align: center; 
+	font-size: 100px;
+	color:blue;
+}
+
+h2 {
+	margin-top: 0;
+	margin-left: 50px;
+	font-size: 40px;
+}
+
+#example_1 {
+	height:100vh;
+	background-image: url(../img/suzuki-df-300-motor.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#example_2 {
+	height:100vh;
+	background-image: url(../img/16-fon-dlya-sayta.png);
+	background-repeat: repeat;
+}
+
+.motor {
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 250px;
+}
+
+.basket {
+	width: 100px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+footer {
+	height: 100px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+}
