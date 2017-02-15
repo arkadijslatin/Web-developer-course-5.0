@@ -1,0 +1,13 @@
+
+#element {
+	height: 100vh;
+	padding-top: 50px;
+}
+.box_first {
+	height: 100px;
+	border: 2px solid #000;
+}
+.box_second {
+	height: 50px;
+	background: green;
+}
