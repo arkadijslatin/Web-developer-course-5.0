@@ -1,0 +1,76 @@
+
+.main_head {
+	margin-top: 3%;
+}
+.main_logo_border {
+	width: 149px;
+	height: 55px;
+	border: 3px solid #706b73;
+	text-align: center;
+	line-height: 49px;
+}
+.main_logo_border p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+	color: #706b73;
+}
+.main_logo_border p span {
+	color:#fa9a87;
+}
+.main_nav_bar {
+	position: relative;
+	float: right;
+	margin-top: 25px;
+	width: 30px;
+}
+
+.main_nav {
+	
+}
+.line {
+	border-radius: 6px;
+	display: inline-block;
+	width: 30px;
+	height: 4px;
+	background-color: #706b73;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	--webkit-transform: translateY(-2px);
+	-ms-transform: translateY(-2px);
+	-o-transform: translateY(-2px);
+	transform: translateY(-2px);
+}
+.line::before {
+	border-radius: 6px;
+	display: inline-block;
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 50%;
+	--webkit-transform:translateY(-10px) ;
+	-ms-transform:translateY(-10px) ;
+	-o-transform:translateY(-10px) ;
+	transform:translateY(-10px) ;
+	width: 30px;
+	height: 4px;
+	background-color: #706b73;
+
+}
+.line::after {
+	border-radius: 6px;
+	display: inline-block;
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 50%;
+	--webkit-transform:translateY(6px) ;
+	-ms-transform:translateY(6px) ;
+	-o-transform:translateY(6px) ;
+	transform:translateY(6px) ;
+	width: 30px;
+	height: 4px;
+	background-color: #706b73;
+
+}
